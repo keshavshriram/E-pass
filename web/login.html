@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+  </script>
+
+  <script type="text/javascript">
+
+</script>
+
+	<title>E-Pass Registration</title>
+
+	<style type="text/css">
+		.abc{
+			padding: 5px;
+			background: linear-gradient(to left, gold, limegreen);
+			color: white;
+		}
+		#tagline{
+			color: #000123;
+			margin-top: -15px;
+			font-size: 15px;
+			font-style: italic;
+		}
+		.form{
+			width: 30%;
+			padding: 20px;
+			background-color: gold;
+			font-family: Arial;
+			font-size: 12px;
+			float: right;
+                        margin-top: 10%;
+                        border-radius: 10px;
+		}
+		.heading{
+			color: limegreen;
+			font-family: Arial;
+		}
+		body{
+			background-image: url("family2.jpg");
+			background-size: cover;
+		}
+                a{
+                    color: black;
+                }
+                a:hover{
+                    color: white;
+                    text-decoration: none;
+                }
+                .btn{
+                    font-size: 18px;
+                }
+	</style>
+</head>
+<body>
+
+	<div class="jumbotron abc">
+		<h3>E-Pass Traveller</h3>
+		<p id="tagline">Govt. Authorised E-Pass Services</p>
+	</div>
+
+	<div class="container">
+		<div class="form">
+			<form method="post" action="login">
+			<div class="form-group text-center">
+				<h3 class="heading">Travelling E-Pass</h3>
+			</div>
+                            
+			<div class="form-group">
+                                <input type="text" name="uname" placeholder="Username" class="form-control">
+			</div>
+                            
+			<div class="form-group">
+                                <input type="text" name="pass" placeholder="Password" class="form-control">
+			</div>
+                            
+                        <div class="form-group">
+				<button type="submit" class="btn btn-info form-control">Login</button>
+                        </div>
+                        <div  class="form-group">
+				<button type="reset" class="btn btn-info form-control">Reset</button>
+			</div>
+                            
+                        <div class="form-group text-center">
+                                <a href="registration.html"><h4>New Registration</h4></a>
+                        </div>
+		        </form>
+		</div>
+	</div>
+
+</body>
+</html>

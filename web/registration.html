@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+  </script>
+
+  <script type="text/javascript">
+
+</script>
+
+	<title>E-Pass Registration</title>
+
+	<style type="text/css">
+		.abc{
+			padding: 5px;
+			background: linear-gradient(to left, gold, limegreen);
+			color: white;
+		}
+		#tagline{
+			color: #000123;
+			margin-top: -15px;
+			font-size: 15px;
+			font-style: italic;
+		}
+		.form{
+			width: 30%;
+			padding: 20px;
+			background-color: gold;
+			font-family: Arial;
+			font-size: 12px;
+			float: right;
+		}
+		.heading{
+			color: limegreen;
+			font-family: Arial;
+		}
+		body{
+			background-image: url("family2.jpg");
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="jumbotron abc">
+		<h3>E-Pass Traveller</h3>
+		<p id="tagline">Govt. Authorised E-Pass Services</p>
+	</div>
+
+	<div class="container">
+		<div class="form">
+			<form method="post" action="Register_Servlet">
+			<div class="form-group text-center">
+				<h3 class="heading">E-pass Registration Form</h3>
+			</div>
+			<div class="form-group">
+				<label>First Name</label>
+			    <input type="text" name="fname" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Last Name</label>
+			    <input type="text" name="lname" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Email</label>
+			    <input type="text" name="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Phone No</label>
+			    <input type="text" name="phoneno" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Username</label>
+			    <input type="text" name="uname" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Password</label>
+			    <input type="text" name="pass" class="form-control">
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-info">Submit</button>
+				<button type="reset" class="btn btn-info">Reset</button>
+			</div>
+		</form>
+		</div>
+	</div>
+
+</body>
+</html>
