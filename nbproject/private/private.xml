@@ -2,21 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/src/java/login.java</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/okPassStatus.jsp</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/src/java/ApplyForEPass.java</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/index.html</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/User_Dashboard.jsp</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/ApplyForEPass.html</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/META-INF/context.xml</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/removePassStatus.jsp</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/src/java/Applied_For_EPass.java</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/Admin_Dashboard.html</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/src/conf/MANIFEST.MF</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/web/login.html</file>
-            <file>file:/C:/Users/AKSHAY/OneDrive/Documents/NetBeansProjects/E-Pass/src/java/Dashboard.html</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

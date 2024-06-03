@@ -58,9 +58,9 @@ public class ApplyForEPass extends HttpServlet
                 out.print("<br><br><br>");
                 out.print("<center>");
                 out.print("<img src='check.png' width='200' height='150'></img>");
-                out.print("<h3>You are successfully registered.....</h3>");
+                out.print("<h3>You have successfully applied.....</h3>");
                 out.print("<br>");
-                out.print("<a href='user_Dashboard.html'>Go to User Dashboard</a>");
+                out.print("<a href='User_Dashboard.jsp'>Go to User Dashboard</a>");
                 out.print("<center>");
 
             }
